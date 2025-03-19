@@ -1,0 +1,77 @@
+*{
+    margin:1;
+    padding:0;
+    background-color: blanchedalmond;
+}
+
+button{
+    height: 40px;
+    width: 150px;
+    background-color:beige;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#button:hover{
+    cursor: pointer;
+    background-color: darksalmon;
+    
+}
+
+.Panel
+{
+    position: relative;
+    height: 300px;
+    width: 150px;
+    background-color: black;
+    top:50px;
+    border-radius: 30px;
+    /* border-top: 10px; */
+    display:flex
+}
+
+.circle1
+{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    left:45px;
+    top:18px;
+    border-radius: 40px;
+}
+
+.circle2
+{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    left:45px;
+    top:110px;
+    border-radius: 40px;
+}
+
+.circle3
+{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    left:45px;
+    top:215px;
+    border-radius: 40px;
+}
+
+.circle1.active {
+    background-color: red;
+}
+
+.circle2.active {
+    background-color: yellow;
+}
+
+.circle3.active {
+    background-color: green;
+}
